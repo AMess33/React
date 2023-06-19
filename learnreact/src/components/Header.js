@@ -1,6 +1,10 @@
 import React from "react";
 
 function Header() {
-  return <div></div>;
+  return (
+    <div>
+      <h1>M.S. Messer Woodworking</h1>
+    </div>
+  );
 }
 export default Header;
