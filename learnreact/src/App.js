@@ -1,6 +1,6 @@
-import Header from "./components/";
-import Content from "./components/";
-import Footer from "./components/";
+import Header from "./components/Header";
+import Content from "./components/Content";
+// import Footer from "./components/";
 
 import "./App.css";
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Content />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

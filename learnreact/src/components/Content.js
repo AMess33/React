@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import NavItems from "/NavItems";
-import Contact from "/Contact";
-import PhotoGallery from "/PhotoGallery";
-import About from "/About";
+import NavItems from "./NavItems";
+import Contact from "./Contact";
+import PhotoGallery from "./PhotoGallery";
+import About from "./About";
 import background from "../images/wood.webp";
 
 export default function Content() {
