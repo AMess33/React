@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Content from "./components/Content";
 // import Footer from "./components/";
 
-import "./App.css";
+// import "./input.css";
 
 function App() {
   return (
