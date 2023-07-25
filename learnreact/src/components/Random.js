@@ -1,9 +1,9 @@
 import React from "react";
 
-function About() {
+function Random() {
   return (
     <div>
-      <h1> Our Story </h1>
+      <h1> RandomIzer </h1>
       <div>
         <br />
         <br />
@@ -12,4 +12,4 @@ function About() {
   );
 }
 
-export default About;
+export default Random;
