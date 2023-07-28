@@ -6,33 +6,33 @@ function NavItems({ currentPage, handlePageChange }) {
       <ul className="">
         <li className="">
           <a
-            href="#About"
-            onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
+            href="#Randomizer"
+            onClick={() => handlePageChange("Randomizer")}
+            className={
+              currentPage === "Randomizer" ? "nav-link active" : "nav-link"
+            }
           >
-            Our Story
+            Randomizer
           </a>
         </li>
         <li className="">
           <a
-            href="#PhotoGallery"
-            onClick={() => handlePageChange("PhotoGallery")}
+            href="#DiceRoller"
+            onClick={() => handlePageChange("DiceRoller")}
             className={
-              currentPage === "PhotoGallery" ? "nav-link active" : "nav-link"
+              currentPage === "DiceRoller" ? "nav-link active" : "nav-link"
             }
           >
-            Photo Gallery
+            Dice Roll
           </a>
         </li>
         <li className="">
           <a
-            href="#Contact"
-            onClick={() => handlePageChange("Contact")}
-            className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
-            }
+            href="#ToDo"
+            onClick={() => handlePageChange("ToDo")}
+            className={currentPage === "ToDo" ? "nav-link active" : "nav-link"}
           >
-            Contact
+            To Do List
           </a>
         </li>
       </ul>
